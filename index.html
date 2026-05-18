@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Thiago Lima Silva — Analista de Dados. Projetos de análise de dados, visualização e insights orientados por dados.">
+  <meta name="keywords" content="Analista de Dados, Data Analytics, Portfolio, Thiago Lima Silva, Dados, Visualização de Dados">
+  <meta name="author" content="Thiago Lima Silva">
+  <title>Thiago Lima Silva — Analista de Dados</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================== -->
+  <!-- HEADER / NAVIGATION            -->
+  <!-- ============================== -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#hero" class="header-logo">
+        <span class="logo-name">Thiago</span>
+        <span class="logo-surname">Lima Silva</span>
+      </a>
+      <nav class="header-nav" id="header-nav">
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#competencias" class="nav-link">Competências</a>
+        <a href="#projetos" class="nav-link">Projetos</a>
+        <a href="#experiencia" class="nav-link">Experiência</a>
+        <a href="#contato" class="nav-link nav-link--cta">Contato</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu de navegação">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE FULLSCREEN MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="mobile-menu__close" id="mobile-menu-close" aria-label="Fechar menu">
+      <span>&times;</span>
+    </button>
+    <nav class="mobile-menu__nav">
+      <a href="#sobre" class="mobile-menu__link">Sobre</a>
+      <a href="#competencias" class="mobile-menu__link">Competências</a>
+      <a href="#projetos" class="mobile-menu__link">Projetos</a>
+      <a href="#experiencia" class="mobile-menu__link">Experiência</a>
+      <a href="#contato" class="mobile-menu__link">Contato</a>
+    </nav>
+  </div>
+
+  <!-- ============================== -->
+  <!-- HERO / SOBRE                   -->
+  <!-- ============================== -->
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <span class="category-label">Analista de Dados</span>
+        <h1 class="hero-title">Thiago Lima Silva</h1>
+        <p class="hero-subtitle">
+          Analista de Dados com mais de 15 anos de experiência no ecossistema audiovisual. 
+          Transformo dados em narrativas claras e decisões estratégicas, combinando 
+          Power BI, SQL e storytelling de dados para gerar impacto real nos negócios.
+        </p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn--primary">Ver Projetos</a>
+          <a href="#contato" class="btn btn--outline">Fale Comigo</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="hero-photo__frame">
+          <img src="Thiago.png" alt="Foto de Thiago Lima Silva" class="hero-photo__img">
+        </div>
+        <div class="hero-photo__accent"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- SOBRE                          -->
+  <!-- ============================== -->
+  <section class="section section--sobre" id="sobre">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="category-label">Quem sou eu</span>
+        <h2 class="section-title section-title--bar">Sobre Mim</h2>
+      </div>
+      <div class="sobre-content">
+        <div class="sobre-text">
+          <p class="body-text">
+            Atuo na interseção entre <strong>Análise de Dados e Gestão de Produtos de Dados</strong>, 
+            com foco em dados como produto e geração de valor para o negócio. Sou graduado em Administração 
+            e pós-graduado em Gestão e Análise de Dados (PUC Minas), com mais de 15 anos de experiência 
+            no ecossistema audiovisual.
+          </p>
+          <p class="body-text">
+            Atualmente, trabalho na Inteligência de Dados Cross da Globo, desenvolvendo produtos analíticos 
+            e dashboards no <strong>Power BI</strong>, a partir de múltiplas fontes (GCP e sistemas internos), 
+            utilizando <strong>SQL e DAX</strong>. Traduzo necessidades de negócio em métricas, análises e 
+            visualizações claras, com forte foco em UX, storytelling de dados e tomada de decisão.
+          </p>
+        </div>
+        <div class="callout-box">
+          <p class="callout-box__title">Resumo rápido</p>
+          <ul class="callout-box__list">
+            <li><strong>Formação:</strong> Administração (UniCarioca) · Pós em Gestão e Análise de Dados (PUC Minas)</li>
+            <li><strong>Especialidade:</strong> Análise de Dados, Power BI, SQL & DAX</li>
+            <li><strong>Localização:</strong> Rio de Janeiro, RJ</li>
+            <li><strong>Idiomas:</strong> Português (Nativo) · Inglês (B2) · Espanhol (B1)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- COMPETÊNCIAS / SKILLS          -->
+  <!-- ============================== -->
+  <section class="section section--competencias" id="competencias">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="category-label">Ferramentas & Habilidades</span>
+        <h2 class="section-title section-title--bar">Competências</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-animate>
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V4M4 12l8-8 8 8"/></svg>
+          </div>
+          <h3 class="skill-card__title">Python</h3>
+          <p class="skill-card__desc">Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn</p>
+        </div>
+
+        <div class="skill-card" data-animate>
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3 class="skill-card__title">SQL</h3>
+          <p class="skill-card__desc">SQL Server, BigQuery, consultas complexas, integração GCP</p>
+        </div>
+
+        <div class="skill-card" data-animate>
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 4-8"/></svg>
+          </div>
+          <h3 class="skill-card__title">Power BI</h3>
+          <p class="skill-card__desc">Dashboards interativos, DAX, modelagem de dados, UX analítico</p>
+        </div>
+
+        <div class="skill-card" data-animate>
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3 class="skill-card__title">Visualização de Dados</h3>
+          <p class="skill-card__desc">Storytelling com dados, gráficos editoriais, comunicação de insights</p>
+        </div>
+
+        <div class="skill-card" data-animate>
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          </div>
+          <h3 class="skill-card__title">Google Cloud (GCP)</h3>
+          <p class="skill-card__desc">BigQuery, integração de fontes, infraestrutura de dados</p>
+        </div>
+
+        <div class="skill-card" data-animate>
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3 class="skill-card__title">Power Query & ETL</h3>
+          <p class="skill-card__desc">Transformação de dados, limpeza, automação de fluxos</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- PROJETOS                       -->
+  <!-- ============================== -->
+  <section class="section section--projetos" id="projetos">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="category-label">Portfólio</span>
+        <h2 class="section-title section-title--bar">Projetos</h2>
+        <p class="section-intro">
+          Uma seleção de projetos que demonstram minha abordagem analítica e capacidade de transformar dados em insights acionáveis.
+        </p>
+      </div>
+
+      <!-- Filter pills -->
+      <div class="project-filters" id="project-filters">
+        <button class="pill-btn pill-btn--active" data-filter="todos">Todos</button>
+        <button class="pill-btn" data-filter="analise">Análise</button>
+        <button class="pill-btn" data-filter="dashboard">Dashboard</button>
+        <button class="pill-btn" data-filter="automacao">Automação</button>
+        <button class="pill-btn" data-filter="machine-learning">Machine Learning</button>
+      </div>
+
+      <!-- Project cards grid -->
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- Project Card 1 — placeholder -->
+        <article class="project-card" data-category="analise" data-animate>
+          <div class="project-card__image">
+            <div class="project-card__placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 4-8"/></svg>
+            </div>
+            <span class="project-card__tag">Análise</span>
+          </div>
+          <div class="project-card__body">
+            <span class="meta-text">Projeto 01 · 2025</span>
+            <h3 class="project-card__title">Título do Projeto</h3>
+            <p class="project-card__excerpt">
+              Breve descrição do projeto e dos principais insights encontrados durante a análise.
+            </p>
+            <div class="project-card__tools">
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">Pandas</span>
+              <span class="tool-tag">Power BI</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 2 — placeholder -->
+        <article class="project-card" data-category="dashboard" data-animate>
+          <div class="project-card__image">
+            <div class="project-card__placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <span class="project-card__tag">Dashboard</span>
+          </div>
+          <div class="project-card__body">
+            <span class="meta-text">Projeto 02 · 2025</span>
+            <h3 class="project-card__title">Título do Projeto</h3>
+            <p class="project-card__excerpt">
+              Breve descrição do dashboard desenvolvido e suas funcionalidades principais.
+            </p>
+            <div class="project-card__tools">
+              <span class="tool-tag">SQL</span>
+              <span class="tool-tag">Looker Studio</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 3 — placeholder -->
+        <article class="project-card" data-category="automacao" data-animate>
+          <div class="project-card__image">
+            <div class="project-card__placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <span class="project-card__tag">Automação</span>
+          </div>
+          <div class="project-card__body">
+            <span class="meta-text">Projeto 03 · 2024</span>
+            <h3 class="project-card__title">Título do Projeto</h3>
+            <p class="project-card__excerpt">
+              Breve descrição da automação implementada e os resultados obtidos.
+            </p>
+            <div class="project-card__tools">
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">BigQuery</span>
+              <span class="tool-tag">Airflow</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 4 — placeholder -->
+        <article class="project-card" data-category="machine-learning" data-animate>
+          <div class="project-card__image">
+            <div class="project-card__placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <span class="project-card__tag">Machine Learning</span>
+          </div>
+          <div class="project-card__body">
+            <span class="meta-text">Projeto 04 · 2024</span>
+            <h3 class="project-card__title">Título do Projeto</h3>
+            <p class="project-card__excerpt">
+              Breve descrição do modelo de machine learning construído e sua acurácia.
+            </p>
+            <div class="project-card__tools">
+              <span class="tool-tag">Python</span>
+              <span class="tool-tag">Scikit-learn</span>
+              <span class="tool-tag">Matplotlib</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- EXPERIÊNCIA / TIMELINE         -->
+  <!-- ============================== -->
+  <section class="section section--experiencia" id="experiencia">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="category-label">Trajetória</span>
+        <h2 class="section-title section-title--bar">Experiência</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" data-animate>
+          <div class="timeline-item__marker"></div>
+          <div class="timeline-item__content">
+            <span class="meta-text">Nov 2023 — Atual</span>
+            <h3 class="timeline-item__title">Analista de Dados Pleno · <em>Globo</em></h3>
+            <p class="body-text">
+              Análise e visualização de dados, transformando informações brutas em insights estratégicos. 
+              Consulta e integração de dados de múltiplas fontes (GCP e sistemas internos), construção de 
+              dashboards interativos em Power BI com DAX e SQL, aplicando storytelling de dados para 
+              comunicar insights de forma clara e impactante.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-animate>
+          <div class="timeline-item__marker"></div>
+          <div class="timeline-item__content">
+            <span class="meta-text">Abr 2022 — Out 2023</span>
+            <h3 class="timeline-item__title">Analista de Acervo · <em>Globo</em></h3>
+            <p class="body-text">
+              Organização do acervo físico e digital dos Canais Globo. Elaboração de políticas de 
+              descrição e diretrizes de uso de conteúdo. Ampliação da atuação para análise de dados, 
+              desenvolvendo dashboards e estudos que conectavam indicadores de acervo a perguntas 
+              estratégicas do negócio.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-animate>
+          <div class="timeline-item__marker"></div>
+          <div class="timeline-item__content">
+            <span class="meta-text">Mar 2019 — Abr 2022</span>
+            <h3 class="timeline-item__title">Pesquisador de Acervo · <em>Globo</em></h3>
+            <p class="body-text">
+              Pesquisa e descrição de materiais audiovisuais com foco em contextualização histórica. 
+              Participação em projetos especiais como os 25 anos da GloboNews, Retrospectiva do 
+              Globo Repórter e o documentário Morcego Negro.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-animate>
+          <div class="timeline-item__marker"></div>
+          <div class="timeline-item__content">
+            <span class="meta-text">Ago 2017 — Mar 2019</span>
+            <h3 class="timeline-item__title">Assistente de Pesquisa · <em>Globo</em></h3>
+            <p class="body-text">
+              Organização do fluxo de pesquisas e controle de solicitações de imagens, 
+              desenvolvendo olhar atento à gestão de informações e curadoria de conteúdo.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-animate>
+          <div class="timeline-item__marker"></div>
+          <div class="timeline-item__content">
+            <span class="meta-text">Mar 2011 — Jul 2017</span>
+            <h3 class="timeline-item__title">Auxiliar Administrativo · <em>Globo</em></h3>
+            <p class="body-text">
+              Suporte à gerência em tarefas operacionais, elaboração de apresentações e planilhas, 
+              controle de estoque e tráfego de mídias físicas. Base sólida em organização e 
+              ferramentas de produtividade.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- CONTATO                        -->
+  <!-- ============================== -->
+  <section class="section section--contato" id="contato">
+    <div class="section-container">
+      <div class="section-header section-header--center">
+        <span class="category-label">Vamos conversar</span>
+        <h2 class="section-title section-title--bar">Contato</h2>
+        <p class="section-intro">
+          Interessado em trabalhar junto ou tem alguma pergunta? Fique à vontade para entrar em contato.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:limasilva.thiago3@gmail.com" class="contact-card" id="contact-email" data-animate>
+          <div class="contact-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+          </div>
+          <span class="contact-card__label">E-mail</span>
+          <span class="contact-card__value">limasilva.thiago3@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/thiago-lima-silva-82302691/" target="_blank" rel="noopener" class="contact-card" id="contact-linkedin" data-animate>
+          <div class="contact-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <span class="contact-card__label">LinkedIn</span>
+          <span class="contact-card__value">Conecte-se comigo</span>
+        </a>
+        <a href="https://github.com/ThiagoLimaSilva" target="_blank" rel="noopener" class="contact-card" id="contact-github" data-animate>
+          <div class="contact-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </div>
+          <span class="contact-card__label">GitHub</span>
+          <span class="contact-card__value">Veja meu código</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== -->
+  <!-- FOOTER                         -->
+  <!-- ============================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <span class="footer-logo"><strong>Thiago</strong> Lima Silva</span>
+        <p class="footer-tagline">Analista de Dados</p>
+      </div>
+      <div class="footer-right">
+        <p class="footer-copy">&copy; 2025 Thiago Lima Silva. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
